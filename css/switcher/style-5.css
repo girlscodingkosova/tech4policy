@@ -1,0 +1,30 @@
+
+#style-switcher h2 a {
+    background: #58C433 none repeat scroll 0 0;
+}
+a:hover {
+  color: #58C433;
+  text-decoration: none;
+}
+.header-area-2 .main-menu ul li:hover > a, .header-area-2 .main-menu ul li.active > a, .main-menu ul li:hover > a, .main-menu ul li.active > a, .service-icon, .single-service:hover .service-text a h4, .price-head > span, a.price-btn, .purchase-right a:hover, .blog-btn:hover, .cont-submit:hover, h1.counter, .blog-text a h4:hover, .recent-text a h4:hover, .link-list ul li a:hover, a.footer-btn-active, .footer-btn a:hover, #scrollUp:hover, .how-find-right > h2, h3.head-style, .our-blog-text a h3:hover, .our-blog-text > a:hover, .post-info a h4:hover, .post-caragories li a:hover, .comment-text > a:hover, .our-service-content span, .about-text > span{
+	color:#58C433;
+}
+
+.single-service:hover .service-icon, .progress-bar, .progress-bar span, .single-price:hover a.price-btn, a.price-btn.active, .theme-bg, .blog-btn, .cont-submit, .widget-icon a:hover, #scrollUp, .post-caragories li a:hover::before{
+    background: #58C433 none repeat scroll 0 0;
+}
+
+
+.progress, a.price-btn, .single-blog:hover, .blog-btn,.cont-submit,#scrollUp:hover {
+  border: 1px solid #58C433;
+}
+.test-box::after, .test-box.test-box-border::after {
+  border-bottom: 10px solid #58C433;
+}
+.progress-bar span::before{
+  border-top: 5px solid #58C433;
+}
+
+
+
+

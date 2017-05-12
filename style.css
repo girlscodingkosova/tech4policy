@@ -1,0 +1,299 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Olite 
+    Template URI: http://perculatheme.com
+    Description: This is html5 template
+    Author: BootExperts
+    Author URI: http://perculatheme.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+	1. Theme Default CSS (body, link color, section etc)
+	2.Purchase-area
+	3.Functional-area
+	4.Brand-area 
+    5.mail 	
+	6.Counter-up-area
+
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1.  Theme default CSS
+/*----------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Catamaran:300,400,500,600,700,900|Dancing+Script:400,700');
+html, body {height: 100%;font-family: 'Catamaran', sans-serif;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;font-family: 'Catamaran', sans-serif;line-height:24px;font-size:15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+  color:#282d33;
+  font-family: 'Catamaran', sans-serif;  
+}
+a {transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #ff4157;
+  text-decoration: none;
+}
+a:active, a:hover {
+  outline: 0 none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {font-family: 'Catamaran', sans-serif;}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+.table, .table-cell {
+  display: table;
+  height: 100%;
+}
+.home-sliders.clearfix {
+  position: relative;
+  z-index: 99;
+}
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+div#preloader {
+    background: #000 url("img/ball.gif") no-repeat scroll center center;
+    height: 100%;
+    left: 0;
+    overflow: visible;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+}
+
+.sticky {
+  background: #ffffff none repeat scroll 0 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 111;
+  box-shadow: 2px 2px 2px #c0c0ba;  
+  animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;  
+}
+
+#scrollUp {
+  background: #ff4157 none repeat scroll 0 0;
+  border-radius: 3px;
+  bottom: 30px;
+  color: #ffffff;
+  font-size: 20px;
+  height: 35px;
+  line-height: 35px;
+  position: absolute;
+  right: 30px;
+  text-align: center;
+  width: 35px;
+}
+#scrollUp:hover{
+	background:#fff;
+	color:#ff4157;
+	border:1px solid#ff4157;
+}
+#particles-js {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top:0;
+  z-index:2;
+}
+.menu-scroll {
+  background: #000000 none repeat scroll 0 0;
+  border: medium none;
+  box-shadow: 0 2px 10px -1px rgba(87, 97, 100, 0.35);
+  transition: all 0.3s ease-out 0s;
+}
+
+.zmdi-settings {
+  animation: 2s linear 0s normal none infinite running fa-spin;
+}
+
+.bg-img-1 {
+  background: rgba(0, 0, 0, 0) url("img/slider/1.jpg") no-repeat scroll center center / cover ;
+  height: 100vh;
+}
+.bg-img-1_1{
+  background: rgba(0, 0, 0, 0) url("img/slider/2.jpg") no-repeat scroll center center / cover ;
+  height: 100vh;
+}
+.bg-img-2 {
+  background: rgba(0, 0, 0, 0) url("img/video/1.jpg") no-repeat scroll center center / cover ;
+}
+.bg-img-2_1 {
+  background: rgba(0, 0, 0, 0) url("img/video/3.jpg") no-repeat scroll center center / cover ;
+}
+.bg-img-3 {
+  background: rgba(0, 0, 0, 0) url("img/test/bg.jpg") no-repeat scroll center center / cover ;
+}
+.bg-img-4 {
+  background: rgba(0, 0, 0, 0) url("img/blog/bg.jpg") no-repeat scroll center center / cover ;
+}
+.bg-img-5 {
+  background: rgba(0, 0, 0, 0) url("img/service/bg.jpg") no-repeat scroll center center / cover ;
+}
+
+.video-modal .modal-header .close {
+  background: rgba(0, 0, 0, 0) url("/img/close.png") no-repeat  ;
+}
+
+/*-------------------- 
+  2.Purchase-area
+----------------------- */
+.purchase-left > h4 {
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 48px;
+  margin: 0;
+  padding-right: 20px;
+}
+.purchase-left > h4 span{
+	font-weight:700;
+}
+.purchase-right.text-right {
+  margin-top: 25px;
+}
+.purchase-right a{
+	  padding: 10px 21px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 700;
+  border-radius:4px;
+  transition:all .4s;
+}
+.purchase-right a:hover{
+	color:#FF4157;
+	background:#fff;
+}
+/*-------------------- 
+  3.Functional-area
+----------------------- */
+.single-functional.black-bg.text-center {
+    padding: 50px 15px;
+	transition:all .4s;
+}
+.single-functional:hover{
+	background: rgba(0, 0, 0, 0) linear-gradient(180deg, #00d4c3 40%, #ff4157 70%) repeat scroll 0 0;
+	transition:all .4s;
+	opacity:.8;
+}
+.functional-icon {
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.functional-text h4 {
+    color: #ffffff;
+    font-weight: 700;
+}
+.functional-text > p {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+/*-------------------- 
+   4.Brand-area
+----------------------- */
+.single-brand {
+  text-align: center;
+}
+.single-brand a img {
+  transition: all 0.3s ease 0s;
+}
+.single-brand a:hover img {
+  filter: brightness(50%);
+}
+/*-------------------- 
+   5.mail
+----------------------- */
+.cf-msg {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cf-msg p {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #fff;
+    text-transform: capitalize;
+}
+.contact-form form input {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #aba8a8;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+.contact-form form textarea {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #aba8a8;
+  border-radius: 4px;
+  height: 400px;
+  padding-left: 20px;  
+}
+.cont-submit {
+  background: #ff4157 none repeat scroll 0 0;
+  border: 1px solid #ff4157;
+  border-radius: 4px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 40px;
+  padding: 10px 18px;
+  text-transform: capitalize;
+  transition:all .4s;
+}
+.cont-submit:hover{
+	color:#ff4157;
+	background:#ffffff;
+}
+/*-------------------- 
+   6.Counter-up-area
+----------------------- */
+h1.counter {
+  color: #ff4157;
+  font-size: 100px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.single-counter > span {
+  color: #282d33;
+  font-size: 34px;
+}

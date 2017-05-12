@@ -1,0 +1,167 @@
+/* -----------------------------------
+Template:  Theme Name
+
+NOTE: This is Footer style file. All footer related style included in this file.
+
+--------------------------------------*/
+.footer-padd {
+  padding: 0 100px;
+}
+.widget-title > h3 {
+  color: #ffffff;
+  margin-bottom: 35px;
+  text-transform: capitalize;
+}
+
+.widget-tag ul li {
+    display: inline-block;
+}
+.widget-tag ul li a {
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  color: #ffffff;
+  display: block;
+  margin: 8px 5px;
+  padding: 6px 18px;
+  text-transform: capitalize;
+  transition:all .3s;
+}
+.widget-tag ul li a:hover{
+	background:#fff;
+	color:#ff4157;
+}
+.recent-post {
+  padding-bottom: 15px;
+  overflow: hidden;
+}
+.recent-post:last-child {
+  padding-bottom: 0;
+}
+.recent-post .post-img {
+    float: left;
+    padding-right: 20px;
+}
+.recent-text {
+  margin-left: 83px;
+  margin-top: 10px;
+  position: relative;
+}
+.recent-text::before {
+  background: #a9a5a5 none repeat scroll 0 0;
+  bottom: -10px;
+  content: "";
+  height: 1px;
+  position: absolute;
+  width: 100%;
+}
+.recent-text.recent-text-2::before {
+  bottom: -10px;
+  content: "";
+  display: none;
+  height: 1px;
+  position: absolute;
+  width: 100%;
+}
+.recent-text a h4 {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+	transition:all .3s;
+}
+.recent-text a h4:hover{
+	color:#ff4157;
+}
+.recent-text > span {
+  color: #a9a5a5;
+}
+.link-list ul li a {
+  border-bottom: 1px solid #a9a5a5;
+  color: #ffffff;
+  display: block;
+  font-size: 17px;
+  margin-bottom: 6px;
+  padding-bottom: 6px;
+  text-transform: capitalize;
+  padding-left: 20px;
+  position:relative;
+  transition:all .3s;
+}
+.link-list ul li a:hover{
+	color:#ff4157;
+	margin-left:5px;
+}
+.link-list li:last-child a {
+  border: medium none;
+}
+.link-list ul li a::before {
+  content: "";
+  font-family: FontAwesome;
+  font-size: 18px;
+  left: 0;
+  position: absolute;
+}
+
+
+.footer-logo {
+    margin-bottom: 15px;
+}
+.widget-content p {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.widget-icon a {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #282d33;
+    display: inline-block;
+    font-size: 18px;
+    height: 35px;
+    line-height: 36px;
+    margin: 30px 5px;
+    text-align: center;
+    width: 35px;
+	transition:all .3s;
+}
+.widget-icon a:hover{
+	background:#FF4157;
+	color:#fff;
+}
+.footer-btn a {
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: 20px;
+  padding: 8px 30px;
+  transition:all .3s;
+}
+.footer-btn a:hover{
+	background:#fff;
+	color:#FF4157;
+}
+a.footer-btn-active{
+	background:#fff;
+	color:#FF4157;	
+}
+.copyright-left > p {
+  color: #ffffff;
+  font-size: 15px;
+  margin: 0;
+}
+.copyright-right > p {
+  color: #ffffff;
+  font-size: 15px;
+  margin: 0;
+  text-align: right;
+}
+
+.copyright-right a {
+    color: #ffffff;
+}
+.copyright-right a:hover {
+    color: #ff4157;
+}
