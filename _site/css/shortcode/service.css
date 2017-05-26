@@ -9,18 +9,18 @@ NOTE: This is Service style file. All Service related style included in this fil
 }
 .section-title h3{
 	font-size:24px;
-	font-family: 'Dancing Script', cursive;	
-    color:#fff;	
+	font-family: 'Dancing Script', cursive;
+    color:#fff;
 }
 .single-service {
   margin-bottom: 50px;
 }
 .single-service:hover .service-icon {
 	color:#fff;
-	background:#ff4157;
+	background:#59c4bf;
 }
 .single-service:hover .service-text a h4{
-	color:#ff4157;
+	color:#59c4bf;
 }
 .service-icon {
   background: #ffffff none repeat scroll 0 0;
@@ -40,7 +40,7 @@ NOTE: This is Service style file. All Service related style included in this fil
   font-weight: 700;
   margin: 15px 0;
   text-transform:capitalize;
-  transition:all .3s;  
+  transition:all .3s;
 }
 .service-text > p {
   color: #ffffff;
@@ -67,20 +67,3 @@ NOTE: This is Service style file. All Service related style included in this fil
 p.para-botttom {
   margin: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

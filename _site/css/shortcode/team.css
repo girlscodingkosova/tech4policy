@@ -17,7 +17,7 @@ NOTE: This is Team style file. All Team related style included in this file.
   transition: all 0.4s ease 0s;
 }
 .team-img > a::before {
-	background: rgba(0, 0, 0, 0) linear-gradient(180deg, #00d4c3 50%, #ff4157 70%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) linear-gradient(180deg, #00d4c3 50%, #eeea2e 70%) repeat scroll 0 0;
     content: "";
     height: 100%;
     left: 0;
@@ -110,8 +110,8 @@ NOTE: This is Team style file. All Team related style included in this file.
 .single-team:hover .team-img > a::after {
 	opacity:1;
 	z-index:111;
-	
-} 
+
+}
 .dotted-style-1 .owl-carousel .owl-controls .owl-dots{
 	text-align:center;
 	margin-top:50px;

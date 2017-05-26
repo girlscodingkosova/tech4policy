@@ -21,7 +21,7 @@ NOTE: This is Header style file. All Header related style included in this file.
 }
 .main-menu{
 	float:right;
-} 
+}
 .main-menu ul {
 }
 .main-menu ul li {
@@ -38,8 +38,8 @@ NOTE: This is Header style file. All Header related style included in this file.
   font-size:14px;
 }
 .header-area-2 .main-menu ul li:hover > a, .main-menu ul li.active > a{
-	color:#FF4157;
-} 
+	color:#eeee;
+}
 
 .main-menu ul li.active a, ..main-menu ul li.active a:focus, .main-menu ul li.active a:hover {
   background-color: rgba(0, 0, 0, 0);
@@ -84,5 +84,3 @@ NOTE: This is Header style file. All Header related style included in this file.
     float: left;
     padding: 0;
 }
-
-

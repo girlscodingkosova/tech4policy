@@ -11,7 +11,7 @@ NOTE: This is Portfolio style file. All Portfolio related style included in this
   padding: 5px;
 }
 h3.head-style{
-	color:#FF4157;
+	color: #eeea2e;
 }
 .single-portfolio {
   float: left;
@@ -61,8 +61,8 @@ opacity: .5;}
     transition: all 0.5s ease 0s
 }
 .grid-item:hover .portfolio-icon{
-    margin-top: -10.5px; 
-    opacity: 1; 
+    margin-top: -10.5px;
+    opacity: 1;
 }
 .portfolio-text {
     bottom: -5px;
@@ -74,8 +74,8 @@ opacity: .5;}
     width: 100%;
 }
 .grid-item:hover .portfolio-text{
-    bottom: 10px; 
-    opacity: 1; 
+    bottom: 10px;
+    opacity: 1;
 }
 
 .portfolio-text > h3 {

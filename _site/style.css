@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Olite 
+    Template Name: Olite
     Template URI: http://perculatheme.com
     Description: This is html5 template
     Author: BootExperts
@@ -8,15 +8,15 @@
     Version: 1.0
 
 -----------------------------------------------------------------------------------
-    
+
     CSS INDEX
     ===================
-	
+
 	1. Theme Default CSS (body, link color, section etc)
 	2.Purchase-area
 	3.Functional-area
-	4.Brand-area 
-    5.mail 	
+	4.Brand-area
+    5.mail
 	6.Counter-up-area
 
 -----------------------------------------------------------------------------------*/
@@ -38,11 +38,11 @@ p {margin:0 0 15px;font-family: 'Catamaran', sans-serif;line-height:24px;font-si
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 10px;
   color:#282d33;
-  font-family: 'Catamaran', sans-serif;  
+  font-family: 'Catamaran', sans-serif;
 }
 a {transition: all 0.3s ease 0s;text-decoration:none;}
 a:hover {
-  color: #ff4157;
+  color: #59c4bf;
   text-decoration: none;
 }
 a:active, a:hover {
@@ -98,12 +98,12 @@ div#preloader {
   top: 0;
   width: 100%;
   z-index: 111;
-  box-shadow: 2px 2px 2px #c0c0ba;  
-  animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;  
+  box-shadow: 2px 2px 2px #c0c0ba;
+  animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
 }
 
 #scrollUp {
-  background: #ff4157 none repeat scroll 0 0;
+  background: #59c4bf none repeat scroll 0 0;
   border-radius: 3px;
   bottom: 30px;
   color: #ffffff;
@@ -117,8 +117,8 @@ div#preloader {
 }
 #scrollUp:hover{
 	background:#fff;
-	color:#ff4157;
-	border:1px solid#ff4157;
+	color: #59c4bf;
+	border:1px solid #59c4bf;
 }
 #particles-js {
   height: 100%;
@@ -166,7 +166,7 @@ div#preloader {
   background: rgba(0, 0, 0, 0) url("/img/close.png") no-repeat  ;
 }
 
-/*-------------------- 
+/*--------------------
   2.Purchase-area
 ----------------------- */
 .purchase-left > h4 {
@@ -197,7 +197,7 @@ div#preloader {
 	color:#FF4157;
 	background:#fff;
 }
-/*-------------------- 
+/*--------------------
   3.Functional-area
 ----------------------- */
 .single-functional.black-bg.text-center {
@@ -205,7 +205,7 @@ div#preloader {
 	transition:all .4s;
 }
 .single-functional:hover{
-	background: rgba(0, 0, 0, 0) linear-gradient(180deg, #00d4c3 40%, #ff4157 70%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) linear-gradient(180deg, #eeea2e 40%, #00d4c3 70%) repeat scroll 0 0;
 	transition:all .4s;
 	opacity:.8;
 }
@@ -224,7 +224,7 @@ div#preloader {
     line-height: 24px;
     margin-bottom: 0;
 }
-/*-------------------- 
+/*--------------------
    4.Brand-area
 ----------------------- */
 .single-brand {
@@ -236,7 +236,7 @@ div#preloader {
 .single-brand a:hover img {
   filter: brightness(50%);
 }
-/*-------------------- 
+/*--------------------
    5.mail
 ----------------------- */
 .cf-msg {
@@ -265,7 +265,7 @@ div#preloader {
   border: 1px solid #aba8a8;
   border-radius: 4px;
   height: 400px;
-  padding-left: 20px;  
+  padding-left: 20px;
 }
 .cont-submit {
   background: #ff4157 none repeat scroll 0 0;
@@ -284,7 +284,7 @@ div#preloader {
 	color:#ff4157;
 	background:#ffffff;
 }
-/*-------------------- 
+/*--------------------
    6.Counter-up-area
 ----------------------- */
 h1.counter {

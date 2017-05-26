@@ -22,7 +22,7 @@ NOTE: This is Price style file. All Price related style included in this file.
   margin-bottom: 5px;
 }
 .price-head > span {
-  color: #ff4157;
+  color: ##eeea2e;
   font-size: 24px;
   font-weight: 700;
 }
@@ -33,9 +33,9 @@ NOTE: This is Price style file. All Price related style included in this file.
   margin-bottom: 15px;
 }
 a.price-btn {
-  border: 1px solid #ff4157;
+  border: 1px solid ##eeea2e;
   border-radius: 4px;
-  color: #ff4157;
+  color: ##eeea2e;
   display: inline-block;
   font-size: 17px;
   font-weight: 700;
@@ -44,16 +44,16 @@ a.price-btn {
   text-transform: uppercase;
 }
 a.price-btn:hover{
-	background:#ff4157;
+	background:##eeea2e;
 	color:#fff;
 }
 .single-price:hover a.price-btn{
-	background:#ff4157;
-	color:#fff;	
+	background:##eeea2e;
+	color:#fff;
 }
 a.price-btn.active{
-	background:#ff4157;
-	color:#fff;	
+	background:##eeea2e;
+	color:#fff;
 }
 .price-text ul li img {
   margin-right: 5px;
@@ -62,4 +62,3 @@ a.price-btn.active{
   padding-left: 85px;
   text-align: left;
 }
-

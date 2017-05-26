@@ -17,7 +17,7 @@ NOTE: This is Slider style file. All Slider related style included in this file.
 	left: 0;
 	opacity: 0.5;
 	position: absolute;
-	width: 100%; 
+	width: 100%;
 }
 .slider-text h1 {
   color: #ffffff;
@@ -80,7 +80,7 @@ a.button {
   position: relative;
   top: 100px;
   width: 15px;
-  display: inline-block;  
+  display: inline-block;
 }
 .device-curosel.owl-theme .owl-dots .owl-dot span{
     background-color: transparent;
@@ -148,7 +148,7 @@ a.button {
   transition: all 0.3s ease 0s;
 }
 .header-area-2 .main-menu ul li > a:hover, .header-area-2 .main-menu ul li.active > a{
-	color:#ff4157;
+	color: #eeea2e;
 }
 
 .bg-opacity-2:before {
@@ -172,4 +172,3 @@ a.button {
 .slider-area-3{
 	height:100%;
 }
-
