@@ -49,7 +49,7 @@ NOTE: This is Testimonial style file. All Testimonial related style included in 
 }
 
 .test-box::after {
-  border-bottom: 10px solid #ff4157;
+  border-bottom: 10px solid #ffffff;
   border-left: 10px solid rgba(0, 0, 0, 0);
   border-right: 10px solid rgba(0, 0, 0, 0);
   content: "";
@@ -60,7 +60,7 @@ NOTE: This is Testimonial style file. All Testimonial related style included in 
   top: -10px;
   width: 0;
 }.test-box.test-box-border::after {
-  border-bottom: 10px solid #ff4157;
+  border-bottom: 10px solid #ffffff;
   border-left: 10px solid rgba(0, 0, 0, 0);
   border-right: 10px solid rgba(0, 0, 0, 0);
   content: "";
