@@ -125,7 +125,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
 	transition:all .3s;
 }
 .widget-icon a:hover{
-	background:#FF4157;
+	background:#59c4bf;
 	color:#fff;
 }
 .footer-btn a {
@@ -141,11 +141,11 @@ NOTE: This is Footer style file. All footer related style included in this file.
 }
 .footer-btn a:hover{
 	background:#fff;
-	color:#FF4157;
+	color:#59c4bf;
 }
 a.footer-btn-active{
 	background:#fff;
-	color:#FF4157;	
+	color:#59c4bf;	
 }
 .copyright-left > p {
   color: #ffffff;

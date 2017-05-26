@@ -268,8 +268,8 @@ div#preloader {
   padding-left: 20px;
 }
 .cont-submit {
-  background: #ff4157 none repeat scroll 0 0;
-  border: 1px solid #ff4157;
+  background: #59c4bf none repeat scroll 0 0;
+  border: 1px solid #59c4bf;
   border-radius: 4px;
   color: #ffffff;
   display: inline-block;
@@ -281,14 +281,14 @@ div#preloader {
   transition:all .4s;
 }
 .cont-submit:hover{
-	color:#ff4157;
+	color:#59c4bf;
 	background:#ffffff;
 }
 /*--------------------
    6.Counter-up-area
 ----------------------- */
 h1.counter {
-  color: #ff4157;
+  color: #59c4bf;
   font-size: 100px;
   font-weight: 700;
   margin-bottom: 0;
