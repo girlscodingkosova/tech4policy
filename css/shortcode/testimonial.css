@@ -8,7 +8,7 @@ NOTE: This is Testimonial style file. All Testimonial related style included in 
 	position:relative;
 }
 .testimonial-area::before {
-  background: rgba(0, 0, 0, 0) linear-gradient(180deg, #00d4c3 50%, #eeea2e 70%) repeat scroll 0 0;
+  background: #EFEB30
   content: "";
   height: 100%;
   left: 0;
