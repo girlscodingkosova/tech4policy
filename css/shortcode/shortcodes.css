@@ -1,11 +1,11 @@
 /*
 
-Template:  
-Author: 
+Template:
+Author:
 Version: 1
-Design and Developed by: 
+Design and Developed by:
 
-Note: This is Short code style file. All Short code related style included in this file. 
+Note: This is Short code style file. All Short code related style included in this file.
 
 */
 
@@ -22,3 +22,5 @@ Note: This is Short code style file. All Short code related style included in th
 @import url("blog.css");
 @import url("testimonial.css");
 @import url("footer.css");
+@import url("apply.css");
+@import url("applyinfo.css");
