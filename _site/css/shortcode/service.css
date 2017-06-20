@@ -1,0 +1,69 @@
+/* -----------------------------------
+Template:  Theme Name
+
+NOTE: This is Service style file. All Service related style included in this file.
+
+--------------------------------------*/
+.section-title-white h2, .section-title-white span{
+	color:#fff;
+}
+.section-title h3{
+	font-size:24px;
+	font-family: 'Dancing Script', cursive;
+    color:#fff;
+}
+.single-service {
+  margin-bottom: 50px;
+}
+.single-service:hover .service-icon {
+	color:#fff;
+	background:#59c4bf;
+}
+.single-service:hover .service-text a h4{
+	color:#59c4bf;
+}
+.service-icon {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  font-size: 34px;
+  height: 60px;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  width: 60px;
+  transition:all .3s;
+}
+.service-text  a h4 {
+  color: #ffffff;
+  font-weight: 700;
+  margin: 15px 0;
+  text-transform:capitalize;
+  transition:all .3s;
+}
+.service-text > p {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 24px;
+  margin:0;
+}
+
+/*---------------------
+ Service-page
+---------------------- */
+.our-single-service > h3 {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.our-service-img > img {
+  margin: 30px 0;
+}
+.our-service-content span {
+  color: #ff4157;
+  font-size: 24px;
+  font-weight: 700;
+}
+p.para-botttom {
+  margin: 0;
+}

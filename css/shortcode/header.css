@@ -1,0 +1,86 @@
+/* -----------------------------------
+Template:  Theme Name
+
+NOTE: This is Header style file. All Header related style included in this file.
+
+--------------------------------------*/
+.header-area {
+  background-color: #ffffff;
+  display: block;
+  float: left;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0px;
+  width: 100%;
+  z-index: 99999;
+}
+.logo {
+  margin-top: 18px;
+  transition:all .3s;
+}
+.main-menu{
+	float:right;
+}
+.main-menu ul {
+}
+.main-menu ul li {
+  float: left;
+  position: relative;
+}
+.main-menu ul li > a {
+  color: #282d33;
+  display: block;
+  font-weight: 700;
+  padding: 30px 12px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  font-size:14px;
+}
+.header-area-2 .main-menu ul li:hover > a, .main-menu ul li.active > a{
+	color:#eeee;
+}
+
+.main-menu ul li.active a, ..main-menu ul li.active a:focus, .main-menu ul li.active a:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #d63138;
+}
+
+
+
+
+.main-menu ul li:hover > a{
+	color:#FF4157;
+}
+/*-- Navbar Toggle --*/
+
+.navbar-toggle {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 0;
+    padding: 0;
+    text-align: center;
+    border: none;
+    margin: 0;
+}
+.navbar-toggle i {
+    display: block;
+    font-size: 26px;
+    line-height: 40px;
+}
+.navbar-toggle i.menu-open {
+    display: none;
+}
+.navbar-toggle.collapsed .menu-open {
+    display: block;
+	color:#000;
+}
+.navbar-toggle.collapsed .menu-close {
+    display: none;
+}
+.navbar-brand {
+    float: left;
+    padding: 0;
+}
