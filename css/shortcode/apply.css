@@ -5,80 +5,42 @@ NOTE: This is Apply style file. All About related style included in this file.
 
 --------------------------------------*/
 .apply-area {
-  /*background-color: blue;*/
   background: #59c4bf;
   background: -webkit-linear-gradient(to right bottom, #eee92e, #59c4bf);
   background:    -moz-linear-gradient(to right bottom, #eee92e, #59c4bf);
   background:         linear-gradient(to right bottom, #eee92e, #59c4bf);
-  padding: 50px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
-.section-title {
-  margin-bottom: 60px;
-}
-.section-title.text-center > h2 {
-  font-size: 34px;
+
+.large-section-title.text-center > h2 {
+  font-size: 160px;
   margin-bottom: 30px;
   font-weight:700;
 }
-.section-title span {
-  display: block;
-  font-size: 17px;
-  font-weight: 600;
-  padding: 0 250px;
-  text-align: center;
-}
-.about-area .col-lg-4{
-  border-right: 1px solid #e5e5e5;
-}
-.about-area .col-lg-4:nth-child(3) {
-    border: medium none;
-}
-.single-about {
-  padding-bottom: 40px;
-}
-.about-icon {
-    margin-bottom: 10px;
-}
-.about-text > span {
-  color: #ff4157;
-  font-family: "Dancing Script",cursive;
-  font-size: 18px;
-  font-weight: 700;
-}
-.about-text h4 {
-  font-weight: 700;
-  margin-bottom:15px;
-}
-.about-text > p {
-  font-size: 15px;
-  line-height: 24px;
-  margin-bottom:0;
+
+.section-title.text-center > h3 {
+  color: white;
+  font-size: 25px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+  font-weight:400;
+  font-family: 'Catamaran', sans-serif;
 }
 
-.how-find-right > h2 {
-	color: #59c4bf;
-	font-size: 34px;
-	font-weight: 700;
-	margin-bottom: 15px;
-	font-family: 'Dancing Script', cursive;
+.apply-button button{
+  padding: 15px 20px 15px 20px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+  background-color: #282d33;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
 }
-.how-find-right h3 {
-  font-size: 34px;
-  font-weight: 700;
-  margin-bottom: 30px;
-}
-.how-find-right > p {
-  font-size: 17px;
-  line-height: 27px;
-  margin-bottom: 40px;
-  color:#282d33;
-}
-.find-brand > h4 {
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-.find-brand > p {
-  color: #000000;
-  font-size: 15px;
-  line-height: 24px;
+
+.apply-button button:hover{
+  opacity: 1;
 }
