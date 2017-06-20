@@ -1,0 +1,130 @@
+/* -----------------------------------
+Template:  Theme Name
+
+NOTE: This is Apply style file. All About related style included in this file.
+
+--------------------------------------*/
+/*Dark blue: #282d33;
+Yellow: #eeea2e;
+Turquoise:#59c4bf; */
+
+.applyinfo {
+  background-color: #282d33;
+}
+
+.info-card {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+.info-card p {
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: 40px;
+}
+
+.card-content {
+  padding: 80px;
+}
+
+.number-title {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+}
+
+.number-title > * {
+  padding: 5px;
+}
+
+.emphasize-number {
+  color: #59c4bf;
+  font-size: 100px;
+}
+
+.apply-button-1 {
+  padding: 20px;
+  background-color: #eeea2e;
+  margin-top: -35px;
+  transition: background-color 0.5s ease;
+}
+
+.apply-button-1 a {
+  color: #282d33;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.apply-button-1:hover {
+  color: #282d33;
+  background-color: #59c4bf;
+}
+
+.apply-button-1 a:hover {
+  color: #282d33;
+
+}
+
+.due-date {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+
+.due-date h3 {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.due-date h4{
+  color: #fff;
+  font-weight: 100;
+}
+
+.apply-info-body {
+  background-color: #fff;
+}
+
+.app-body-title {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: baseline;
+  color: #282d33;
+}
+
+.app-body-title > * {
+  padding: 5px;
+}
+
+.app-body-title p {
+  margin-left: -40px;
+  color: #eeea2e;
+  font-size: 3em;
+}
+
+.app-body-title h2 {
+  font-family: 'Dancing Script', script;
+  font-size: 60px;
+}
+
+.app-body-title h3 {
+  font-size: 30px;
+}
+
+.app-body-text p{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.app-body-text p strong{
+  color: #59c4bf;
+}

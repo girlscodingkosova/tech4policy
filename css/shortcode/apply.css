@@ -28,7 +28,9 @@ NOTE: This is Apply style file. All About related style included in this file.
   font-family: 'Catamaran', sans-serif;
 }
 
-.apply-button button{
+.apply-button > a {
+  text-decoration: none;
+  color: #fff;
   padding: 15px 20px 15px 20px;
   text-transform: uppercase;
   color: #fff;
@@ -41,6 +43,7 @@ NOTE: This is Apply style file. All About related style included in this file.
   transition: opacity 0.3s ease;
 }
 
-.apply-button button:hover{
+.apply-button a:hover{
+  color: #fff;
   opacity: 1;
 }
