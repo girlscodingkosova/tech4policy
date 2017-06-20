@@ -7,6 +7,12 @@ NOTE: This is Apply style file. All About related style included in this file.
 /*Dark blue: #282d33;
 Yellow: #eeea2e;
 Turquoise:#59c4bf; */
+.applyinfo-logo {
+  background-color: #282d33;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
 
 .applyinfo {
   background-color: #282d33;
@@ -16,7 +22,7 @@ Turquoise:#59c4bf; */
   background-color: white;
   display: flex;
   align-items: center;
-  flex-flow: column nowrap;
+  flex-flow: column nowrap; 
 }
 
 .info-card p {
@@ -90,8 +96,11 @@ Turquoise:#59c4bf; */
   font-weight: 100;
 }
 
-.apply-info-body {
-  background-color: #fff;
+.applyinfo-body {
+  margin: 30px;
+}
+.applyinfo-body .container .row {
+  padding-top: 50px;
 }
 
 .app-body-title {
@@ -99,6 +108,7 @@ Turquoise:#59c4bf; */
   flex-flow: row nowrap;
   align-items: baseline;
   color: #282d33;
+  margin-bottom: 10px;
 }
 
 .app-body-title > * {
@@ -121,10 +131,55 @@ Turquoise:#59c4bf; */
 }
 
 .app-body-text p{
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 300;
+  line-height: 140%;
 }
 
 .app-body-text p strong{
   color: #59c4bf;
+}
+
+.appinfo-highlight {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-color: #eeea2e;
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.appinfo-highlight h2 {
+  /*padding-left: 100px;*/
+  font-weight: 300;
+  padding: 10px;
+  font-size: 28px;
+}
+
+.app-footer {
+  background-color: #282d33;
+  display: flex;
+  justify-content: flex-end;
+  height: 100px;
+}
+
+.apply-button-2 a {
+  background-color: #59c4bf;
+  margin:0px;
+  padding: 20px;
+  color: #282d33;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.apply-button-2:hover {
+  color: #282d33;
+}
+
+.apply-button-2 a:hover {
+  color: #282d33;
 }
