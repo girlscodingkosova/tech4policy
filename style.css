@@ -205,7 +205,8 @@ div#preloader {
 	transition:all .4s;
 }
 .single-functional:hover{
-	background: rgba(0, 0, 0, 0) linear-gradient(180deg, #eeea2e 40%, #00d4c3 70%) repeat scroll 0 0;
+	/*background: rgba(0, 0, 0, 0) linear-gradient(180deg, #eeea2e 40%, #00d4c3 70%) repeat scroll 0 0;*/
+  background: #59c4bf;
 	transition:all .4s;
 	opacity:.8;
 }
