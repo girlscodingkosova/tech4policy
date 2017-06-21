@@ -1,0 +1,199 @@
+/* -----------------------------------
+Template:  Theme Name
+
+NOTE: This is Apply style file. All About related style included in this file.
+
+--------------------------------------*/
+/*Dark blue: #282d33;
+Yellow: #eeea2e;
+Turquoise:#59c4bf; */
+.applyinfo-logo {
+  background-color: #282d33;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.applyinfo {
+  background-color: #282d33;
+}
+
+.info-card {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+.info-card p {
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: 40px;
+}
+
+.card-content {
+  padding: 80px;
+}
+
+.number-title {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+}
+
+
+
+.number-title > * {
+  padding: 5px;
+}
+
+.emphasize-number {
+  color: #59c4bf;
+  font-size: 100px;
+}
+
+.apply-button-1 {
+  padding: 20px;
+  background-color: #eeea2e;
+  margin-top: -35px;
+  transition: background-color 0.5s ease;
+}
+
+.apply-button-1 a {
+  color: #282d33;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.apply-button-1:hover {
+  color: #282d33;
+  background-color: #59c4bf;
+}
+
+.apply-button-1 a:hover {
+  color: #282d33;
+
+}
+
+@media screen and (max-width: 500px) {
+    .card-content {
+      padding: 20px;
+      margin-left: 20px;
+      font-size: 2em;
+    }
+    .emphasize-number {
+      font-size: 50px;
+    }
+
+}
+
+.due-date {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+
+.due-date h3 {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.due-date h4{
+  color: #fff;
+  font-weight: 100;
+}
+
+.applyinfo-body {
+  margin: 30px;
+}
+.applyinfo-body .container .row {
+  padding-top: 50px;
+}
+
+.app-body-title {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: baseline;
+  color: #282d33;
+  margin-bottom: 10px;
+}
+
+.app-body-title > * {
+  padding: 5px;
+}
+
+.app-body-title p {
+  margin-left: -40px;
+  color: #eeea2e;
+  font-size: 3em;
+}
+
+.app-body-title h2 {
+  font-family: 'Dancing Script', script;
+  font-size: 60px;
+}
+
+.app-body-title h3 {
+  font-size: 30px;
+}
+
+.app-body-text p{
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+.app-body-text p strong{
+  color: #59c4bf;
+}
+
+.appinfo-highlight {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-color: #eeea2e;
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.appinfo-highlight h2 {
+  /*padding-left: 100px;*/
+  font-weight: 300;
+  padding: 10px;
+  font-size: 28px;
+}
+
+.app-footer {
+  background-color: #282d33;
+  display: flex;
+  justify-content: flex-end;
+  height: 100px;
+}
+
+.apply-button-2 a {
+  background-color: #59c4bf;
+  margin:0px;
+  padding: 20px;
+  color: #282d33;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.apply-button-2:hover {
+  color: #282d33;
+}
+
+.apply-button-2 a:hover {
+  color: #282d33;
+}
