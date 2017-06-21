@@ -19,6 +19,18 @@ NOTE: This is Apply style file. All About related style included in this file.
   font-weight:700;
 }
 
+@media screen and (max-width: 850px) {
+    .large-section-title.text-center > h2 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1200px) {
+    .large-section-title.text-center > h2 {
+        font-size: 90px;
+    }
+}
+
 .section-title.text-center > h3 {
   color: white;
   font-size: 25px;
@@ -41,6 +53,12 @@ NOTE: This is Apply style file. All About related style included in this file.
   background-color: #282d33;
   opacity: 0.8;
   transition: opacity 0.3s ease;
+}
+
+@media screen and (max-width: 850px) {
+    .apply-button > a{
+        font-size: 18px;
+    }
 }
 
 .apply-button a:hover{
