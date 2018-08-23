@@ -298,3 +298,58 @@ h1.counter {
   color: #282d33;
   font-size: 34px;
 }
+
+.nav {
+    margin:  0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+    display: table !important; /* [1] */
+    table-layout: fixed !important; /* [2] */
+    width: 100% !important; /* [3] */
+}
+
+.tabs__item {
+    display: table-cell !important; /* [4] */
+}
+
+.tabs__link {
+    display: block !important; /* [5] */
+}
+
+.nav-tabs {
+    text-align: center !important;
+    overflow: hidden !important; /* [1] */
+    border-radius: 0px ;
+    border: 0px;
+
+}
+
+.nav-tabs a {
+    padding: 1em !important;
+    background-color: #fff !important;
+    color: #59c4bf !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    border-radius: 0px !important;
+
+    }
+
+.nav-tabs a:hover {
+    background-color: #fff !important;
+    border-color: #59c4bf !important;
+    color: #59c4bf !important;
+}
+
+li.tabs__item.active a{
+  background-color: #59c4bf !important;
+  color: #fff !important;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+  border: 0px !important;
+}
+
+a.tabs__link {
+    width: 11.7em;
+    height: 50px;
+}

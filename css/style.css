@@ -298,3 +298,45 @@ h1.counter {
   color: #282d33;
   font-size: 34px;
 }
+
+.nav {
+    margin:  0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+    display: table !important; /* [1] */
+    table-layout: fixed !important; /* [2] */
+    width: 100% !important; /* [3] */
+}
+
+.tabs__item {
+    display: table-cell !important; /* [4] */
+}
+
+.tabs__link {
+    display: block !important; /* [5] */
+}
+
+.nav-tabs {
+    text-align: center !important;
+    border-radius: 4px !important;
+    overflow: hidden !important; /* [1] */
+}
+
+.nav-tabs a {
+    padding: 1em !important;
+    background-color: #BADA55 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+  }
+
+.nav-tabs a:hover {
+    background-color: #A3C43B !important;
+}
+
+
+a.tabs__link {
+    border-color: #345 !important;
+    border-radius: 0px !important;
+    width: 400px;
+}
