@@ -353,3 +353,7 @@ a.tabs__link {
     width: 11.7em;
     height: 50px;
 }
+
+.default-bg {
+  background-color: #fff;
+}
