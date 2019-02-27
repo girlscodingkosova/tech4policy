@@ -45,12 +45,9 @@
 /* Modal style */
 
 .modalBody {
-    margin: 8% 16% !important;
+    width: 50%;
 }
 
-.modal-content {
-    width: 202%;
-}
 
 .winner-data {
     margin-top: 26px;
@@ -62,49 +59,4 @@
 .winner-presentation {
     padding-top: 15px;
     font-size: 16px
-}
-
-@media (max-width: 2014px ) {
-    .modal-content {
-        width: 190%;
-    } 
-    .modalBody {
-        margin: 8% 14% !important;
-    } 
-}
-
-@media (max-width: 1850px ) {
-    .modal-content {
-        width: 170%;
-    } 
-    .modalBody {
-        margin: 8% 12% !important;
-    } 
-}
-
-@media (max-width: 1650px ) {
-    .modal-content {
-        width: 150%;
-    }
-    .modalBody {
-        margin: 8% 10% !important;
-    }  
-}
-
-@media (max-width: 1450px ) {
-    .modal-content {
-        width: 130%;
-    } 
-    .modalBody {
-        margin: 8% 8% !important;
-    } 
-}
-
-@media (max-width: 1050px ) {
-    .modal-content {
-        width: 100%;
-    }  
-    .modalBody {
-        margin: 4% 4% !important;
-    }
 }
